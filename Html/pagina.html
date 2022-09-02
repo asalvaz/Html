@@ -9,15 +9,15 @@
             <div class="container">
                 <p class="logo"><img width="340" src="logo.png"/></p>    
                 <nav>
-                    <a href="#">Sobre Nosotros</a>
-                    <a href="#">Cursos</a>
-                    <a href="#">Caracteristicas</a>
+                    <a href="#intro">Sobre Nosotros</a>
+                    <a href="#nuestros-productos">Tequilas</a>
+                    <a href="#caracteristicas">Caracteristicas</a>
                 </nav>
             </div>
         </header>
         <section id="intro">
             <h1>Tequila Maestro blanco<br>Reposado</h1>
-            <button>Ingresa</button>
+            <button>Comprar</button>
         </section>
         <section>
             <div class="img-container">
@@ -27,23 +27,25 @@
         </section>
 
 
-        <section class="nuestros-programas">
+        <section id="nuestros-productos">
             <div class="container">
-                <h2>Nuestros tequilas</h2>
-                <div class="carta">
-                    <h3>Tequila Blanco</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
-                    <button>Más información</button>
-                </div>
-                <div class="carta">
-                    <h3>Tequila Reposado</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
-                    <button>Más información</button>
-                </div>
-                <div class="carta">
-                    <h3>Tequila añejo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
-                    <button>Más información</button>
+                <h2>Nuestros <span class="color-acento"></span>Tequilas</span></h2>
+                <div class="tequilas">
+                    <div class="carta">
+                        <h3><span class="color-acento">Tequila</span> Blanco</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
+                        <button>Más información</button>
+                    </div>
+                    <div class="carta">
+                        <h3><span class="color-acento">Tequila</span> Reposado</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
+                        <button>Más información</button>
+                    </div>
+                    <div class="carta">
+                        <h3><span class="color-acento">Tequila</span> añejo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
+                        <button>Más información</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -58,53 +60,93 @@
                 </ul>
             </div>
         </section>
+
         <section id="footer">
-            <h2>Comenzamos</h2>
-            <button>Ingresa</button>
+            <div class="container">
+                <h2>Comenzamos</h2>
+                <button>Lo quiero‼</button>
+            </div>
         </section>
 
         <section id="contactanos">
-            <h1>Formularios e imagenes</h1>
-            <h2>Formularios</h2>
-            <div>Cuerpo</div>
-            <p id = "P1">Parrafo 1</p>
-            <p id = "P2" class="Parrafos">Parrafo 2</p>
-            <p id = "P3" class="Parrafos">Parrafo 3</p>
-            <p id = "P4" class="Parrafos">Parrafo 4</p>
-            <p id = "P5">Parrafo 5</p>
-            <span>span Html</span>
-            <div>El Div en section</div>
-            <p>Por favor llena este formulario para ponerte en contacto con nosotros</p>
-            <fieldset>
-                <form action="contacto.html">
-                    <fieldset>
-                        <legend>Contacto</legend>
-                        <label>Nombre</label>
-                        <input type="nombre" placeholder="Nombre..."/>
-                        <br/>
-                        <label>Apellido Paterno</label>
-                        <input type="apellidop" placeholder="Apellido paterno..."/>
-                        <br/>
-                        <label>Apellido Materno</label>
-                        <input type="apellidom" placeholder="Apellido materno..."/>
-                        <br/>
-                        <label>Correo</label>
-                        <input type="email" placeholder="Correo..."/>
-                        <br/>
-                        <label>Contraseña</label>
-                        <input type="password" placeholder="******"/>
-                        <br/>
-                        <label>Comentarios</label>
-                        <textarea></textarea>
-                        <br>
-                        <button>Aceptar</button>
-                    </fieldset>
-                </form>
-            </fieldset>
+            <div class="cuerpocontactanos">
+                <p>Por favor llena este formulario para ponerte en contacto con nosotros:</p>
+            </div>
+            <div class="formcontactanos">
+                
+                <fieldset>
+                    <form action="contacto.html">
+                        <fieldset>
+                            <legend>Contacto</legend>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <td>
+                                        <label>Nombre</label>
+                                        </td>
+                                        <td>
+                                            <input type="nombre" placeholder="Nombre..."/>
+                                        </td>
+                                    </th>
+                                    <th>
+                                        <td>
+                                            <label>Apellido Paterno</label>
+                                        </td>
+                                        <td>
+                                            <input type="apellidop" placeholder="Apellido paterno..."/>
+                                        </td>
+                                    <th>
+                                        <td>
+                                            <label>Apellido Materno</label>
+                                        </td>
+                                        <td>
+                                            <input type="apellidom" placeholder="Apellido materno..."/>
+                                        </td>
+                                    <th>
+                                        <td>
+                                            <label>Correo</label>
+                                        </td>
+                                        <td>
+                                            <input type="email" placeholder="Correo..."/>
+                                        </td>
+                                    <th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                    <td>
+                                        <label>Contraseña</label>
+                                    </td>
+                                    <td>
+                                        <input type="password" placeholder="******"/>
+                                    </td>
+                                    </th>
+                                    <th>
+                                        <td>
+                                            <label>Comentarios</label>
+                                        </td>
+                                        <td>
+                                            <textarea></textarea>
+                                        </td>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <td>
+                                            <button>Aceptar</button>
+                                        </td>
+                                    </th>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </form>
+                </fieldset>
+            </div>
             <br> 
         </section>
+
+
         <footer class="container">
-            <p>&copy;TequilaSalcedo</p>
+            <p>&copy;TequilaValeriano</p>
         </footer>
     </body>
 </html>
