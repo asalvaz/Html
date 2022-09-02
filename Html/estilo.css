@@ -1,0 +1,26 @@
+/* Tags */
+body 
+{
+    margin-left: 150px;
+    margin-right: 80px;
+}
+
+/* IDs */
+#P1
+{
+    color: red;
+}
+#P2
+{
+    color:blue;
+}
+#P5
+{
+    color:orange;    
+}
+/* Classes */
+.Parrafos
+{
+    color: gray;
+    font-style: bold;
+}
