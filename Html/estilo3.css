@@ -35,7 +35,7 @@ header .logo
 header .container
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: left;
     align-items: center;
     font-size: 1.35em;
 }
@@ -43,7 +43,7 @@ header .container
 header nav
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: left;
     text-align: center;
     padding-bottom: center;
 }
@@ -54,6 +54,7 @@ header a
     text-decoration: none;
     font-weight: bold;
     color: black;
+    float: left;
 }
 header a:hover
 {
@@ -204,6 +205,7 @@ footer .container
 #contactanos
 {
     border: 0px;
+    border-radius: 1.5px;
     display: flex;
     flex-direction: column;
     background-color: #040404;
@@ -220,10 +222,15 @@ footer .container
 
 #contactanos .container
 {
-    height: 90px;
+    border: 0;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+#contactanos #Formulariocontacto p
+{
+    text-shadow: 2px 3px rgba(245, 240, 240, 0.5);
 }
 
 #Formulariocontacto label
