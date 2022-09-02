@@ -1,8 +1,152 @@
 <!DOCTYPE html>
-<html>
-    <title>Valeriana Cartesiana</title>
-    <head><div>Encabezado</div></head>
+<html lang="en">
+    <head>
+        <title>CSS</title>
+        <link rel="stylesheet" href="estilo3.css" type="text/css" />
+    </head>
     <body>
+        <header>
+            <div class="container">
+                <p class="logo"><img width="340" src="logo.png"/></p>    
+                <nav>
+                    <a href="#intro">Sobre Nosotros</a>
+                    <a href="#nuestros-productos">Tequilas</a>
+                    <a href="#caracteristicas">Caracteristicas</a>
+                </nav>
+            </div>
+        </header>
+        <section id="intro">
+            <h1>Tequila Maestro blanco<br>Reposado</h1>
+            <button>Comprar</button>
+        </section>
+        <section>
+            <div class="img-container">
+                <h2>Somos tequila</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto qui illum quam laudantium, exercitationem vero necessitatibus itaque officiis odio reprehenderit nemo sint temporibus repellat corporis perferendis rem atque eius?</p>
+            </div>
+        </section>
+
+
+        <section id="nuestros-productos">
+            <div class="container">
+                <h2>Nuestros <span class="color-acento"></span>Tequilas</span></h2>
+                <div class="tequilas">
+                    <div class="carta">
+                        <h3><span class="color-acento">Tequila</span> Blanco</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
+                        <button>Más información</button>
+                    </div>
+                    <div class="carta">
+                        <h3><span class="color-acento">Tequila</span> Reposado</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
+                        <button>Más información</button>
+                    </div>
+                    <div class="carta">
+                        <h3><span class="color-acento">Tequila</span> añejo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi tempore! Nam animi quisquam aut, saepe harum fugiat tempora quibusdam qui esse numquam iusto similique exercitationem cum labore delectus vel.</p>
+                        <button>Más información</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         
+        <section id="caracteristicas">
+            <div class="container">
+                <ul>
+                    <li>🥂 100% Online</li>
+                    <li>🥂 Hasta tu casa</li>
+                    <li>🥂 Garantizado</li>
+                    <li>🥂 Siente México</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="container">
+                <h2>Comenzamos</h2>
+                <button>Lo quiero‼</button>
+            </div>
+        </section>
+
+        <section id="contactanos">
+            <div class="cuerpocontactanos">
+                <p>Por favor llena este formulario para ponerte en contacto con nosotros:</p>
+            </div>
+            <div class="formcontactanos">
+                
+                <fieldset>
+                    <form action="contacto.html">
+                        <fieldset>
+                            <legend>Contacto</legend>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <td>
+                                        <label>Nombre</label>
+                                        </td>
+                                        <td>
+                                            <input type="nombre" placeholder="Nombre..."/>
+                                        </td>
+                                    </th>
+                                    <th>
+                                        <td>
+                                            <label>Apellido Paterno</label>
+                                        </td>
+                                        <td>
+                                            <input type="apellidop" placeholder="Apellido paterno..."/>
+                                        </td>
+                                    <th>
+                                        <td>
+                                            <label>Apellido Materno</label>
+                                        </td>
+                                        <td>
+                                            <input type="apellidom" placeholder="Apellido materno..."/>
+                                        </td>
+                                    <th>
+                                        <td>
+                                            <label>Correo</label>
+                                        </td>
+                                        <td>
+                                            <input type="email" placeholder="Correo..."/>
+                                        </td>
+                                    <th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                    <td>
+                                        <label>Contraseña</label>
+                                    </td>
+                                    <td>
+                                        <input type="password" placeholder="******"/>
+                                    </td>
+                                    </th>
+                                    <th>
+                                        <td>
+                                            <label>Comentarios</label>
+                                        </td>
+                                        <td>
+                                            <textarea></textarea>
+                                        </td>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <td>
+                                            <button>Aceptar</button>
+                                        </td>
+                                    </th>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </form>
+                </fieldset>
+            </div>
+            <br> 
+        </section>
+
+
+        <footer class="container">
+            <p>&copy;TequilaValeriano</p>
+        </footer>
     </body>
 </html>
