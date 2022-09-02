@@ -218,19 +218,12 @@ footer .container
     padding-bottom: center;
 }
 
-#contactanos .formcontactanos
-{
-    border: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 #contactanos .container
 {
-    height: 150px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 88vh;
 }
 
 #Formulariocontacto label
