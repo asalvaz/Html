@@ -224,6 +224,16 @@ footer .container
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+#contactanos .container
+{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 88vh;
+}
+
 #Formulariocontacto label
 {
     min-width: none;
