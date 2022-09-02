@@ -224,6 +224,45 @@ footer .container
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
+#Formulariocontacto label
+{
+    min-width: none;
+    width: auto;
+}
+#Formulariocontacto input
+{
+    min-width: none;
+    width: auto;
+}
+#Formulariocontacto td
+{
+    min-width: none;
+    width: auto;
+}
+#Formulariocontacto th
+{
+    min-width: none;
+    width: auto;
+}
+
+/* Classes */
+.Parrafos
+{
+    color: gray;
+    font-style: bold;
+    font-size: 12px;
+}
+
+.container
+{
+    max-width: 2400px;
+    margin: auto;
+}
+
+.color-acento
+{
+    color:darkseagreen
+}
 
 .carta:first-child
 {
@@ -249,22 +288,3 @@ footer .container
     rgba(0,0,0,0.5) 100%) /* Chrome10+,Safari5.1+ */
     ,url("./frontend3.jpg");
 }
-/* Classes */
-.Parrafos
-{
-    color: gray;
-    font-style: bold;
-    font-size: 12px;
-}
-
-.container
-{
-    max-width: 2400px;
-    margin: auto;
-}
-
-.color-acento
-{
-    color:darkseagreen
-}
-
