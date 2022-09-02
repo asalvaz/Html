@@ -208,9 +208,9 @@ footer .container
     border-radius: 1.5px;
     display: flex;
     flex-direction: column;
-    background-color: #040404;
+    margin: 0px;
     color:white;
-    padding: 10vh;
+    
 }
 
 #contactanos .cuerpocontactanos
@@ -223,9 +223,26 @@ footer .container
 #contactanos .container
 {
     border: 0;
+    padding: 0px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    border-radius: .7em;
+    background-color: #040404;
+    padding: 0px 0px 13px 0px;
+    margin: 0px;
+}
+
+#contactanos table
+{
+    align-items: center;
+}
+
+#contactanos fieldset
+{
+    align-items: center;
+    width: auto;
+    margin: 0px 15px;
 }
 
 #contactanos #Formulariocontacto p
