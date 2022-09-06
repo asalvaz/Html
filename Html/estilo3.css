@@ -40,13 +40,15 @@ header .container
     font-size: 1.35em;
 }
 
-header nav
+header nav 
 {
-    display: flex;
+    display:flex;
     flex-direction: left;
+    flex-wrap: wrap;
     text-align: center;
     padding-bottom: center;
 }
+
 
 header a
 {
@@ -80,11 +82,15 @@ button
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
     background-color:forestgreen;
+    cursor: pointer;
+    transition: 0.6s;
+    transition-delay: 0.1s;
 }
 
 button:hover
 {
     background-color: darkseagreen;
+    transform: scale(0.95, 0.95);
 }
 
 /* IDs */
@@ -99,10 +105,10 @@ button:hover
     height: 90vh;
     color:cornsilk;
     background-image: 
-    -webkit-linear-gradient(top, 
+    linear-gradient(to top, 
     rgba(0,0,0,0.5) 0%,
     rgba(0,0,0,0.5) 100%) /* Chrome10+,Safari5.1+ */
-    ,url("./imagen2.jpg");
+    , url("img/imagen2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -169,6 +175,7 @@ button:hover
     background-color: #040404;
     color:white;
     height: 88vh;
+    /*align-items: center;*/
 }
 
 
@@ -296,7 +303,7 @@ footer .container
     -webkit-linear-gradient(top, 
     rgba(0,0,0,0.5) 0%,
     rgba(0,0,0,0.5) 100%) /* Chrome10+,Safari5.1+ */
-    ,url("./frontend1.jpg");
+    ,url("img/frontend1.jpg");
 }
 .carta:nth-child(2)
 {
@@ -304,7 +311,7 @@ footer .container
     -webkit-linear-gradient(top, 
     rgba(0,0,0,0.5) 0%,
     rgba(0,0,0,0.5) 100%) /* Chrome10+,Safari5.1+ */
-    ,url("./frontend2.jpg");
+    ,url("img/frontend2.jpg");
 }
 .carta:nth-child(3)
 {
@@ -312,5 +319,5 @@ footer .container
     -webkit-linear-gradient(top, 
     rgba(0,0,0,0.5) 0%,
     rgba(0,0,0,0.5) 100%) /* Chrome10+,Safari5.1+ */
-    ,url("./frontend3.jpg");
+    ,url("img/frontend3.jpg");
 }
