@@ -89,8 +89,11 @@
         "badge.background": "#00ff0d",
         "badge.foreground": "#000000",
 
-        
 
+        "button.background": "#00ff15af",
+        "button.hoverBackground": "#00ff15da",
+        "button.separator": "#00ff95",
+        
         "input.background": "#00ff151c",
         
         "minimapSlider.background": "#00ff151c",
