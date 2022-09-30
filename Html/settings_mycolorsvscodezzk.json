@@ -1,0 +1,105 @@
+{
+    "editor.cursorBlinking": "expand",
+    "workbench.iconTheme": "vscode-icons",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "winopacity.opacity": 244,
+    "workbench.colorTheme": "SynthWave '84",
+    "workbench.colorCustomizations": {
+        
+        
+
+        "titleBar.activeBackground": "#0c0e0d",
+        "titleBar.activeForeground": "#FFFFFF",
+        "titleBar.inactiveBackground": "#2f423ad7",
+        "titleBar.inactiveForeground": "#b9ffe2",
+        
+        "menubar.selectionBackground": "#051f0a",
+        "menubar.selectionBorder": "#051f0a",
+        "menubar.selectionForeground": "#00ff95de",
+        
+        "menu.selectionBorder": "#000000",
+        "menu.background": "#000000",
+        "menu.selectionBackground": "#098040",
+        
+        "activityBar.background": "#000000",
+        "activityBar.activeBackground": "#051f0a",
+        "activityBar.foreground": "#00ff95de",
+        
+        "sideBar.background": "#0c0e0d",
+        "sideBarSectionHeader.background": "#0c0e0d",
+        "sideBarSectionHeader.border": "#00ff95",
+        "list.hoverBackground": "#879b8c6c",
+
+        "scrollbarSlider.background": "#7d917a8f",
+        "scrollbarSlider.hoverBackground": "#278a18",
+        "scrollbarSlider.activeBackground": "#00ff00",
+        
+        "tab.hoverBackground": "#236d35",
+        "tab.activeBackground": "#098040",
+        "tab.hoverForeground": "#ffffff",
+        "tab.inactiveBackground": "#021a0d",
+        
+        "editorGroup.dropBackground": "#00ff150c",
+        "editorGroupHeader.tabsBackground": "#020e04", 
+        "editorGroupHeader.tabsBorder": "#00ff95de",
+        
+        
+        "editor.background": "#0c0e0d",
+        "editor.lineHighlightBackground": "#00ff150c",
+        "editor.lineHighlightBorder": "#00ff9528",
+        "editorLineNumber.activeForeground": "#00ff00",
+        "editor.findMatchBackground": "#00ff401f",
+        "editor.findMatchHighlightBackground": "#879b8c6c",
+        "editor.findMatchHighlightBorder": "#00ff001e",
+        "editor.hoverHighlightBackground": "#5a615b63",
+        
+        "editorBracketMatch.border": "#00ff00",
+        "editorBracketMatch.background": "#5a615b63",
+        "editorBracketHighlight.foreground1": "#ffffff",
+        "editorBracketHighlight.foreground2": "#dbe9db",
+        "editorBracketHighlight.foreground3": "#c3d8c3",
+        "editorBracketHighlight.foreground4": "#a3c2a3",
+        "editorBracketHighlight.foreground5": "#7cad7c",
+        "editorBracketHighlight.foreground6": "#6aa76a",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#fbff00",
+
+        "editorBracketPairGuide.activeBackground1": "#ffffff",
+        "editorBracketPairGuide.activeBackground2": "#dbe9db",
+        "editorBracketPairGuide.activeBackground3": "#c3d8c3",
+        "editorBracketPairGuide.activeBackground4": "#a3c2a3",
+        "editorBracketPairGuide.activeBackground5": "#7cad7c",
+        "editorBracketPairGuide.activeBackground6": "#6aa76a",
+
+        "editorBracketPairGuide.background1": "#ffffff",
+        "editorBracketPairGuide.background2": "#dbe9db",
+        "editorBracketPairGuide.background3": "#c3d8c3",
+        "editorBracketPairGuide.background4": "#a3c2a3",
+        "editorBracketPairGuide.background5": "#7cad7c",
+        "editorBracketPairGuide.background6": "#6aa76a",
+
+        "editorIndentGuide.activeBackground": "#00ff0d",
+                
+        "tree.indentGuidesStroke": "#00ff95a1",
+
+        "activityBarBadge.background": "#e0e406d3",
+        
+        
+
+        "badge.background": "#00ff0d",
+        "badge.foreground": "#000000",
+
+        
+
+        "input.background": "#00ff151c",
+        
+        "minimapSlider.background": "#00ff151c",
+        "minimapSlider.hoverBackground": "#00ff150c",
+        
+        "panel.background": "#020e04",
+
+        "statusBar.background" : "#0e0e0e"
+        
+
+    }
+}
